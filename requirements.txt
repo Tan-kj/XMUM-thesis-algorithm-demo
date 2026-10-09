@@ -1,0 +1,21 @@
+# ============================================================
+# A Two-Stage Genetic Algorithm for 3D PCB Placement and Routing
+# Python dependencies
+#
+# Tested with Python 3.10 (Python 3.8+ supported).
+# Install with:  pip install -r requirements.txt
+# ============================================================
+
+# --- Build dependencies (required by setup.py to compile the C++ extension) ---
+# src/pcb_engine.cpp includes pybind11/pybind11.h and pybind11/stl.h;
+# setup.py imports pybind11 and setuptools.
+setuptools>=61.0
+pybind11>=2.10
+
+# --- Runtime dependencies (main_wrapper.py: numerical output, plotting, geometry) ---
+# numpy: array backend required by matplotlib and shapely
+# matplotlib: convergence curves and rendered layout plots
+# shapely: component polygon construction/rotation for rendering
+numpy>=1.21,<3.0
+matplotlib>=3.5
+shapely>=2.0

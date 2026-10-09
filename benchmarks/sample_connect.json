@@ -1,0 +1,497 @@
+{
+  "metadata": {
+    "V_score": 14.4,
+    "E_score": 4.0,
+    "P_score": 7.25,
+    "V_count": 12,
+    "E_count": 8,
+    "P_count": 29,
+    "V_target": 14.4,
+    "E_target": 4,
+    "P_target": 7
+  },
+  "pcb_bounds": {
+    "xmin": 0.0,
+    "ymin": 0.0,
+    "xmax": 300.0,
+    "ymax": 300.0
+  },
+  "components": [
+    {
+      "id": "C1",
+      "width": 8.95,
+      "height": 10.3965,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -2.5375,
+          "dy": 0.0
+        },
+        {
+          "name": "2",
+          "dx": 2.5375,
+          "dy": 0.0
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "width": 8.95,
+      "height": 10.3965,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -2.5375,
+          "dy": 0.0
+        },
+        {
+          "name": "2",
+          "dx": 2.5375,
+          "dy": 0.0
+        }
+      ]
+    },
+    {
+      "id": "R1",
+      "width": 14.85,
+      "height": 7.1365,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -6.35,
+          "dy": 0.0
+        },
+        {
+          "name": "2",
+          "dx": 6.35,
+          "dy": 0.0
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "width": 14.85,
+      "height": 7.1365,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -6.35,
+          "dy": 0.0
+        },
+        {
+          "name": "2",
+          "dx": 6.35,
+          "dy": 0.0
+        }
+      ]
+    },
+    {
+      "id": "J1",
+      "width": 9.3452,
+      "height": 8.9965,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -0.0,
+          "dy": -1.27
+        },
+        {
+          "name": "2",
+          "dx": -0.0,
+          "dy": 1.27
+        }
+      ]
+    },
+    {
+      "id": "T1",
+      "width": 14.5357,
+      "height": 12.3965,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -5.62,
+          "dy": -2.39
+        },
+        {
+          "name": "2",
+          "dx": -5.62,
+          "dy": 0.15
+        },
+        {
+          "name": "3",
+          "dx": -5.62,
+          "dy": 2.69
+        },
+        {
+          "name": "4",
+          "dx": 5.62,
+          "dy": 2.69
+        },
+        {
+          "name": "5",
+          "dx": 5.62,
+          "dy": 0.15
+        },
+        {
+          "name": "6",
+          "dx": 5.62,
+          "dy": -2.39
+        }
+      ]
+    },
+    {
+      "id": "U1",
+      "width": 7.45,
+      "height": 8.4965,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -2.475,
+          "dy": -1.905
+        },
+        {
+          "name": "2",
+          "dx": -2.475,
+          "dy": -0.635
+        },
+        {
+          "name": "3",
+          "dx": -2.475,
+          "dy": 0.635
+        },
+        {
+          "name": "4",
+          "dx": -2.475,
+          "dy": 1.905
+        },
+        {
+          "name": "5",
+          "dx": 2.475,
+          "dy": 1.905
+        },
+        {
+          "name": "6",
+          "dx": 2.475,
+          "dy": 0.635
+        },
+        {
+          "name": "7",
+          "dx": 2.475,
+          "dy": -0.635
+        },
+        {
+          "name": "8",
+          "dx": 2.475,
+          "dy": -1.905
+        }
+      ]
+    },
+    {
+      "id": "U2",
+      "width": 9.78,
+      "height": 8.8965,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -3.805,
+          "dy": -1.27
+        },
+        {
+          "name": "2",
+          "dx": -3.805,
+          "dy": 1.27
+        },
+        {
+          "name": "3",
+          "dx": 3.815,
+          "dy": 1.27
+        },
+        {
+          "name": "4",
+          "dx": 3.815,
+          "dy": -1.27
+        }
+      ]
+    },
+    {
+      "id": "U3",
+      "width": 9.78,
+      "height": 8.8965,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -3.805,
+          "dy": -1.27
+        },
+        {
+          "name": "2",
+          "dx": -3.805,
+          "dy": 1.27
+        },
+        {
+          "name": "3",
+          "dx": 3.815,
+          "dy": 1.27
+        },
+        {
+          "name": "4",
+          "dx": 3.815,
+          "dy": -1.27
+        }
+      ]
+    },
+    {
+      "id": "Q1",
+      "width": 16.45,
+      "height": 8.6265,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -5.45,
+          "dy": -0.185
+        },
+        {
+          "name": "2",
+          "dx": 0.0,
+          "dy": -0.185
+        },
+        {
+          "name": "3",
+          "dx": 5.45,
+          "dy": -0.185
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "width": 5.51,
+      "height": 8.0465,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -1.27,
+          "dy": 0.385
+        },
+        {
+          "name": "2",
+          "dx": 0.0,
+          "dy": 0.385
+        },
+        {
+          "name": "3",
+          "dx": 1.27,
+          "dy": 0.385
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "width": 5.51,
+      "height": 8.0465,
+      "pins": [
+        {
+          "name": "1",
+          "dx": -1.27,
+          "dy": 0.385
+        },
+        {
+          "name": "2",
+          "dx": 0.0,
+          "dy": 0.385
+        },
+        {
+          "name": "3",
+          "dx": 1.27,
+          "dy": 0.385
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "group_name": "AutoGroup_1",
+      "members": [
+        "J1",
+        "Q3",
+        "U3"
+      ]
+    },
+    {
+      "group_name": "AutoGroup_2",
+      "members": [
+        "C1",
+        "Q1",
+        "U1",
+        "C2",
+        "R1"
+      ]
+    },
+    {
+      "group_name": "AutoGroup_3",
+      "members": [
+        "Q2",
+        "T1",
+        "U2",
+        "R2"
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "net_id": "Net-Construct_1",
+      "connections": [
+        {
+          "comp_id": "R1",
+          "pin_name": "2"
+        },
+        {
+          "comp_id": "U1",
+          "pin_name": "2"
+        },
+        {
+          "comp_id": "C1",
+          "pin_name": "2"
+        }
+      ]
+    },
+    {
+      "net_id": "Net-Construct_2",
+      "connections": [
+        {
+          "comp_id": "Q3",
+          "pin_name": "1"
+        },
+        {
+          "comp_id": "J1",
+          "pin_name": "2"
+        },
+        {
+          "comp_id": "Q1",
+          "pin_name": "1"
+        },
+        {
+          "comp_id": "Q3",
+          "pin_name": "2"
+        }
+      ]
+    },
+    {
+      "net_id": "Net-Construct_3",
+      "connections": [
+        {
+          "comp_id": "U3",
+          "pin_name": "4"
+        },
+        {
+          "comp_id": "Q3",
+          "pin_name": "3"
+        }
+      ]
+    },
+    {
+      "net_id": "Net-Construct_4",
+      "connections": [
+        {
+          "comp_id": "U2",
+          "pin_name": "1"
+        },
+        {
+          "comp_id": "U1",
+          "pin_name": "8"
+        },
+        {
+          "comp_id": "R2",
+          "pin_name": "1"
+        },
+        {
+          "comp_id": "U3",
+          "pin_name": "3"
+        },
+        {
+          "comp_id": "T1",
+          "pin_name": "3"
+        }
+      ]
+    },
+    {
+      "net_id": "Net-Construct_5",
+      "connections": [
+        {
+          "comp_id": "U1",
+          "pin_name": "5"
+        },
+        {
+          "comp_id": "Q1",
+          "pin_name": "3"
+        }
+      ]
+    },
+    {
+      "net_id": "Net-Construct_6",
+      "connections": [
+        {
+          "comp_id": "C2",
+          "pin_name": "2"
+        },
+        {
+          "comp_id": "U1",
+          "pin_name": "4"
+        },
+        {
+          "comp_id": "T1",
+          "pin_name": "5"
+        },
+        {
+          "comp_id": "U2",
+          "pin_name": "4"
+        },
+        {
+          "comp_id": "U2",
+          "pin_name": "2"
+        },
+        {
+          "comp_id": "J1",
+          "pin_name": "1"
+        }
+      ]
+    },
+    {
+      "net_id": "Net-Construct_7",
+      "connections": [
+        {
+          "comp_id": "Q2",
+          "pin_name": "1"
+        },
+        {
+          "comp_id": "T1",
+          "pin_name": "6"
+        },
+        {
+          "comp_id": "T1",
+          "pin_name": "4"
+        }
+      ]
+    },
+    {
+      "net_id": "Net-Construct_8",
+      "connections": [
+        {
+          "comp_id": "C1",
+          "pin_name": "1"
+        },
+        {
+          "comp_id": "U3",
+          "pin_name": "2"
+        },
+        {
+          "comp_id": "U1",
+          "pin_name": "1"
+        },
+        {
+          "comp_id": "C2",
+          "pin_name": "1"
+        }
+      ]
+    }
+  ]
+}
