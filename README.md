@@ -34,29 +34,7 @@ Placement and routing (P&R) on a printed circuit board is an **NP-hard combinato
 
 This project presents a **two-stage genetic algorithm** implemented in a high-performance **C++ engine** (exposed to Python through `pybind11`) for the **joint optimization of 3D PCB placement and routing**. The key idea is that *search-space reduction should follow the topology of the netlist, not an arbitrary decomposition*: strongly coupled components are first extracted into rigid local structures, the macroscopic arrangement of those structures is optimized with cheap geometric surrogates, and only then is the full routing-aware objective applied to refine individual component positions with a 3D A* router, congestion history, and partial rip-up & reroute.
 
-```text
-                 ┌──────────────────────────────────────────────────────────────┐
- Topology JSON   │  Graph-based automatic grouping                              │
- ──────────────► │  W_ij = Σ_k 1 / (|n_k| - 1), greedy agglomeration → groups   │
-                 └──────────────────────────────┬───────────────────────────────┘
-                                                ▼
-                 ┌──────────────────────────────────────────────────────────────┐
-                 │  Stage I — Group-level GA (super-nodes)                      │
-                 │  τ_g = (x_g, y_g, θ_g, k_g) · cheap placement surrogates      │
-                 │  → switch to routing-aware group evaluation · softmax/EMA     │
-                 └──────────────────────────────┬───────────────────────────────┘
-                                                ▼  chromosome flattening  z̃ → z
-                 ┌──────────────────────────────────────────────────────────────┐
-                 │  Stage II — Component-level GA                               │
-                 │  g_i = (x_i, y_i, θ_i) · 3D A* routing · partial rip-up &    │
-                 │  reroute (O(N_nets) → O(N_affected)) · periodic full reroute │
-                 └──────────────────────────────┬───────────────────────────────┘
-                                                ▼
-                 ┌──────────────────────────────────────────────────────────────┐
-                 │  Standardized Layout Score pass (fixed routing config)       │
-                 │  LayoutScore = 1.5·C_total + 1.0·L_wire + 5.0·P_congestion   │
-                 └──────────────────────────────────────────────────────────────┘
-```
+<iframe src="./images/fig1_two_stage_ga_architecture.pdf" width="100%" height="600px"></iframe>
 
 The optimization *fitness* (with generation-dependent heuristic weights) is deliberately decoupled from the **standardized Layout Score** (with constant weights, re-routed under a fixed configuration), so that different algorithmic variants can be compared in a single coordinate system.
 
